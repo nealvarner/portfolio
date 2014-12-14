@@ -1,0 +1,132 @@
+
+
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #E4F1E5;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("http://40.media.tumblr.com/b85b8e5a0d421cec5ce34e4cee64a869/tumblr_n949yhncM51slhhf0o1_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #CCCCCC;
+}
+
+.masthead-intro {
+  /* Layout Declarations */  
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 3.5rem;
+}
+
+.masthead-heading {
+  /* Layout Declarations */  
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 10.5rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section,
+.portfolio {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer {
+  padding-bottom:3em;
+  padding-top:3em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+ /* typography declarations */
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.questions-section > h2 {
+  /* typography declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.emphasis {
+  font-weight: 700;
+  color: brown;
+}
+
+.content-footer {
+  background-color: #745F51;
+}
+
+.content-footer > p, a {
+  color: white;
+}
+
+.content-footer >
+
+h1 {
+  color: #3F383F;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid LightGray;
+  margin: 1.3rem 0;
+}
+
+/*portfilio section*/
+
+.projects > li {
+  display: inline;
+  padding-left: 2rem;
+}
+
+.portfolio .nyt {
+  background-image: url("../images/nyt-screenshot.png");
+}
+
+.portfolio .karma {
+  background-image: url("../images/karma-screenshot.png");
+}
+
+
+
+
+
